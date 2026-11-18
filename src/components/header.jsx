@@ -3,13 +3,13 @@ import logo from "../assets/kopikeun.webp";
 import { ChartNoAxesGantt, X } from "lucide-react";
 
 const leftLinks = [
-  { label: "Menu", href: "#menu" },
-  { label: "About", href: "#about" },
+  { label: "Menu", href: "/menu" },
+  { label: "About", href: "/about" },
 ];
 
 const rightLinks = [
-  { label: "Gallery", href: "#gallery" },
-  { label: "Contact", href: "#contact" },
+  { label: "Gallery", href: "/gallery" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const linkStyle =
@@ -19,7 +19,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="fixed z-100 top-0 w-full bg-background border-b border-accent/20 flex justify-between items-center py-5 px-7 md:px-12 md:grid md:grid-cols-[1fr_auto_1fr]">
+    <header className="fixed z-100 top-0 w-full bg-background border-b border-accent/20 flex justify-between items-center py-3 px-7 md:px-12 md:grid md:grid-cols-[1fr_auto_1fr]">
       {/* Links kiri (desktop) */}
       <nav className="hidden md:flex justify-end gap-10">
         {leftLinks.map((link) => (

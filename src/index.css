@@ -38,3 +38,17 @@
   --font-heading: var(--font-heading);
   --font-body: var(--font-body);
 }
+
+@theme {
+  /* Animations (marquee: geser separuh lebar track lalu ulang, seamless) */
+  --animate-marquee: marquee 40s linear infinite;
+
+  @keyframes marquee {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+}

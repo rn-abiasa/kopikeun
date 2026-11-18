@@ -10,7 +10,7 @@ export default function Home() {
       <Header />
       <main className="bg-background min-h-screen">
         <Hero />
-        <div className="px-7 md:px-12">
+        <div className="">
           <About />
           <Menu />
         </div>

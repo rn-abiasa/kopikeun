@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="flex flex-col gap-12 mt-24 mb-20 scroll-mt-24 md:mt-40 md:mb-32 md:gap-20"
+      className="flex flex-col gap-12 mt-24 mb-20 scroll-mt-24 md:mt-40 md:mb-32 md:gap-20 px-7 md:px-12"
     >
       <div className="flex flex-col gap-6 md:flex-row md:justify-between md:gap-12">
         <h2 className="text-4xl md:text-6xl md:w-1/2 leading-none font-heading font-bold text-primary">
@@ -19,7 +19,7 @@ export default function About() {
             meet, work, and stay a little longer than planned.
           </p>
           <a
-            href=""
+            href="/about"
             className="relative font-body text-sm font-medium text-primary after:absolute after:left-0 after:-bottom-1 after:h-px after:w-18 after:origin-left after:scale-x-0 after:bg-accent after:transition-transform after:duration-300 hover:after:scale-x-100 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
           >
             Read more

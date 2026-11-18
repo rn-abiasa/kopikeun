@@ -7,7 +7,8 @@ export default function Footer() {
         <img src={logo} alt="Kopikeun" className="h-16 w-fit md:h-20" />
         <div className="flex flex-col gap-1">
           <p className="text-xs md:text-sm font-body font-normal text-background md:text-right">
-            114 Berkeley Street, Carlton, VIC, 3050
+            Jl. Braga No. 28, Sumur Bandung, Kota Bandung, Jawa Barat 40111,
+            Indonesia.
           </p>
           <p className="text-xs md:text-sm font-body font-normal text-background/70 md:text-right">
             © 2026 Kopikeun Coffee

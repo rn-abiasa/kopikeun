@@ -11,12 +11,12 @@ export default function Hero() {
 
       <div className="relative flex flex-col gap-8 md:flex-row md:items-end md:justify-between md:gap-12">
         <h1 className="text-5xl md:w-3/5 md:text-7xl lg:text-8xl leading-none font-heading font-bold text-background">
-          SEVEN SEEDS COFFEE ROASTERS
+          YOUR EVERYDAY COMFORT SPOT.
         </h1>
         <div className="flex flex-col items-start gap-6 md:w-1/3">
           <p className="text-base md:text-lg leading-relaxed font-body font-normal text-background/90">
-            We roast our beans every week and brew them the way we like to
-            drink them: simple, balanced, and fresh.
+            We roast our beans every week and brew them the way we like to drink
+            them: simple, balanced, and fresh.
           </p>
           <a
             href="#menu"
