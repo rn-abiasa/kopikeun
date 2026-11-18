@@ -57,9 +57,7 @@ const photos = [
 
 function Photo({ photo }) {
   return (
-    <div
-      className={`absolute overflow-hidden bg-accent/10 ${photo.position}`}
-    >
+    <div className={`absolute overflow-hidden bg-accent/10 ${photo.position}`}>
       {photo.src && (
         <img
           src={photo.src}
@@ -75,7 +73,7 @@ export default function Menu() {
   return (
     <section
       id="menu"
-      className="mt-24 mb-20 scroll-mt-24 md:mt-40 md:mb-32"
+      className="mt-24  scroll-mt-24 md:mt-40  py-5 px-7 md:px-12"
     >
       <div className="relative aspect-8/15 md:aspect-16/10">
         {photos.map((photo) => (
